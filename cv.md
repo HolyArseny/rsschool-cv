@@ -1,6 +1,7 @@
 #### Arseny Malinkovich
 * **Contacts:**
   * telegram: @holyarseny
+  * email: malinkovicharseny@gmail.com
 * **About:** I have experience with UI creating, bug fixing and adding new features. Worked for projects: [Genesis brand site](https://www.genesis.com/ru/ru/genesis.html) and Hyundai Marketing Portal (private). I enjoy programming, and it gives me an advantage in work and learning.
 
   **Japanese have a saying:**
