@@ -196,9 +196,10 @@ body {
   flex-direction: column;
 }
 .cv__infoTitle {
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
   color: var(--black01);
   font-size: 20px;
+  font-weight: 400;
 }
 .cv__infoPeriod {
   color: var(--gray04);
