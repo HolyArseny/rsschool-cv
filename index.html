@@ -11,11 +11,32 @@
   <title>Arseny Malinkovich</title>
 </head>
 <body>
+  <header id="header" class="cv__header">
+    <div id="burger" class="cv__burgerIcon">
+      <span class="cv__burgerLine"></span>
+      <span class="cv__burgerLine"></span>
+      <span class="cv__burgerLine"></span>
+      <span class="cv__burgerLine"></span>
+    </div>
+    <nav id="nav" class="cv__navigation">
+      <ul class="cv__links">
+        <li class="cv__linkWrap">
+          <a href="#skills">Skills</a>
+        </li>
+        <li class="cv__linkWrap">
+          <a href="#experience">Experience</a>
+        </li>
+        <li class="cv__linkWrap">
+          <a href="#education">Education</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <div class="cv__container">
     <div class="cv__avatar">
       <img src="./public/images/arseny-face.jpeg" alt="arseny">
     </div>
-    <header class="cv__header">
+    <div class="cv__personalInfo">
       <section class="cv__contacts cv__sideLeft">
         <ul class="cv__contactsWrap">
           <li class="cv__contactsItem">
@@ -56,10 +77,10 @@
           <span>I have experience with UI creating, bug fixing and adding new features. Worked for projects:</span> <a class="cv__link" href="http://https://www.genesis.com/ru/ru/genesis.html">Genesis brand site</a> <span>and Hyundai Marketing Portal (private). I enjoy programming, and it gives me an advantage in work and learning.</span>
         </p>
       </section>
-    </header>
+    </div>
     <main class="cv__main">
       <section class="cv__info">
-        <h2 class="cv__sectionTitle">Skills</h2>
+        <h2 id="skills" class="cv__sectionTitle">Skills</h2>
         <div class="cv__sideRight">
           <ul class="cv__list">
             <li class="cv__listItem">Javascript;</li>
@@ -73,7 +94,7 @@
         </div>
       </section>
       <div class="cv__sectionHeader">
-        <h2 class="cv__sectionTitle">Experience</h2>
+        <h2 id="experience" class="cv__sectionTitle">Experience</h2>
         <div class="cv__lineWrap">
           <div class="cv__line"></div>
         </div>
@@ -93,7 +114,7 @@
             <li class="cv__listItem">Fixed bugs.</li>
           </ul>
           <h4 class="cv__projectName">Genesis brand site</h4>
-          <ul>
+          <ul class="cv__list">
             <li class="cv__listItem">Recreated UI components with the new design;</li>
             <li class="cv__listItem">Created component state animation;</li>
             <li class="cv__listItem">Refactored old project based on the client requirements;</li>
@@ -109,9 +130,9 @@
         <div class="cv__sideRight">
           <div class="cv__infoTitle">Gamer Greed (Startup)</div>
           <p class="cv__about">
-            Platform connecting players and cyber-sport coaches.
+            The platform connecting players and cyber-sport coaches.
           </p>
-          <ul>
+          <ul class="cv__list">
             <li class="cv__listItem">Created UI components from project start;</li>
             <li class="cv__listItem">Created login/registration form;</li>
             <li class="cv__listItem">Created login and password validation;</li>
@@ -121,7 +142,7 @@
         </div>
       </section>
       <div class="cv__sectionHeader">
-        <h2 class="cv__sectionTitle">Education</h2>
+        <h2 id="education" class="cv__sectionTitle">Education</h2>
         <div class="cv__lineWrap">
           <div class="cv__line"></div>
         </div>
@@ -169,5 +190,6 @@
       </a>
     </footer>
   </div>
+  <script src="./script/index.js"></script>
 </body>
 </html>
