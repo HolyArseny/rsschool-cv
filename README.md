@@ -1,2 +1,2 @@
 # rsschool-cv
-https://HolyArseny.github.io/rsschool-cv/cv
+https://holyarseny.github.io/rsschool-cv/
